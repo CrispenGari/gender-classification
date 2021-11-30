@@ -2,7 +2,7 @@
 
 This is a simple `REST` api that is served to classify gender on an image given based on faces.
 
- <p align="center" with="100%"><img src="/faces.jpg" width="100%" alt=""/>
+ <p align="center" with="100%"><img src="/cm.jpg" width="100%" alt=""/>
 </p>
 
 ### Starting the server
@@ -42,7 +42,7 @@ The following table shows all the metrics summary we get after training the mode
     <tbody>
       <tr>
         <td>gender-classification</td>
-        <td>classification of intents by a chatbot.</td>
+        <td>classification of gender using (vgg16 and python flask)</td>
         <td>95.04%</td>
         <td>91.59%</td>
         <td>91.59%</td>
