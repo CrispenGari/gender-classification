@@ -2,7 +2,7 @@
 
 This is a simple `REST` api that is served to classify gender on an image given based on faces.
 
- <p align="center" with="100%"><img src="/cm.jpg" width="100%" alt=""/>
+ <p align="center" with="100%"><img src="/faces.jpg" width="100%" alt=""/>
 </p>
 
 ### Starting the server
@@ -98,7 +98,7 @@ precision recall f1-score support
 
 The following image represents a confusion matrix for the first batch in the validation set which contains `32` images:
 
-<p align="center" with="100%"><img src="/faces.jpg" width="100%" alt=""/>
+<p align="center" with="100%"><img src="/cm.png" width="100%" alt=""/>
 </p>
 
 ### Gender classification
