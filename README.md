@@ -201,7 +201,7 @@ If everything went well you will get the following response depending on the fac
 const input = document.getElementById("input").files[0];
 let formData = new FormData();
 formData.append("image", input);
-fetch("http://localhost:3001/predict", {
+fetch("http://127.0.0.1:3001/api/gender", {
   method: "POST",
   body: formData,
 })
